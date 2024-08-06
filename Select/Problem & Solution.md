@@ -31,16 +31,16 @@ WHERE area>= 3000000 or population>= 25000000;
 [LeetCode Problem Description](https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50)
 ## Solution
 ```sql
-SELECT DISTINCT AUTHOR_ID AS ID
-FROM VIEWS
-WHERE AUTHOR_ID=VIEWER_ID ORDER BY AUTHOR_ID;
+SELECT DISTINCT author_id AS id
+FROM Views
+WHERE author_id=viewer_id ORDER BY author_id;
 ```
 
 # Invalid Tweets
 [LeetCode Problem Description](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50)
 ## Solution
 ```sql
-SELECT TWEET_ID
-FROM TWEETS
-WHERE LENGTH(CONTENT)>15;
+SELECT tweet_id
+FROM Tweets
+WHERE LENGTH(content)>15;
 ```
