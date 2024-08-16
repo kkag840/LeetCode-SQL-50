@@ -16,10 +16,6 @@ This repository contains solutions to 50 SQL questions from LeetCode, covering a
 
 Contributions are welcome! If you have any improvements or additional solutions, feel free to submit a pull request.
 
-## License
-
-This repository is licensed under the MIT License.
-
 ## Conclusion
 
 Thank you for using this repository! If you have any questions or feedback, feel free to open an issue.
